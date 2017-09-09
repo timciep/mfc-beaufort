@@ -1,0 +1,227 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+.homepage .page-header {
+    padding-bottom: 9px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.panel-default {
+  border-color: #ddd;
+}
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+
+
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 60%;
+    bottom: 50px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        right: 50%;
+        left:0;
+        padding-bottom: 30px;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 35%;
+    left:0;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #a5afb0;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/* Navbar */
+.navbar-brand {
+    padding:1px 1px 1px 5px;
+}
+
+.navbar-brand>img {
+    height:100%;
+    float:left;
+}
+
+.navbar-text {
+    float:left;
+    font-weight: bold;
+}
+
+.navbar-inverse {
+    background-color: rgba(164, 10, 17, 0.8);
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-text {
+    color: #e6c428;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #e6c428;
+}
+
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+th {
+    text-align: right;
+    padding: 2px;
+}
+
+.menu th {
+    text-align: left;
+    max-width: 320px;
+}
+
+.menu td {
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.menu .col-lg-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: #bd0009;
+}
+
+.menu-sec {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.menu .nav-tabs li {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.well {
+    font-size: 16px;
+}
+
+.homepage .well {
+    background-color: #ffffc4;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+    header.carousel  {
+        height: 50%;
+    }
+}
