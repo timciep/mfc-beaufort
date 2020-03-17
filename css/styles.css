@@ -16,6 +16,15 @@ body {
     border: #e6c428 2px solid;
 }
 
+.call-now-head {
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+    padding: 1em;
+    background: lightyellow;
+    border: #e6c428 2px solid;
+}
+
 div.menu-container {
     margin-bottom: 150px;
 }
