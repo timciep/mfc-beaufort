@@ -1,0 +1,26 @@
+body {
+    padding-top: 0;
+}
+
+.page-header {
+    margin: 0;
+}
+
+.call-now-foot {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    background: lightyellow;
+    border: #e6c428 2px solid;
+}
+
+div.menu-container {
+    margin-bottom: 150px;
+}
+
+.big-btn {
+    width: 80%;
+    max-width: 200px;
+}
